@@ -25,25 +25,25 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 
 ## Some screenshots
 ### C#
-![C#](img/csharp.png)
+![C#](demo/img/csharp.png)
 
 ### JSON
-![C#](img/json.png)
+![JSON](demo/img/json.png)
 
 ### XML
-![C#](img/xml.png)
+![XML](demo/img/xml.png)
 
 ### CSHTML
-![C#](img/cshtml.png)
+![CSHTML](demo/img/cshtml.png)
 
 ### HTML
-![C#](img/html.png)
+![HTML](demo/img/html.png)
 
 ### CSS
-![C#](img/CSS.png)
+![CSS](demo/img/CSS.png)
 
 ### JAVASCRIPT
-![C#](img/js.png)
+![JAVASCRIPT](demo/img/js.png)
 
 ### JAVA
-![C#](img/java.png)
+![JAVA](demo/img/java.png)

@@ -40,7 +40,7 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 ![HTML](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/html.png)
 
 ### CSS
-![CSS](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/CSS.png)
+![CSS](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/css.png)
 
 ### JAVASCRIPT
 ![JAVASCRIPT](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/js.png)

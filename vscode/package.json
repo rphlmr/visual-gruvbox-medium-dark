@@ -1,0 +1,22 @@
+{
+    "name": "visual-gruvbox-medium-dark",
+    "displayName": "Visual Gruvbox (Medium Dark)",
+    "description": "Visual Studio dark theme meets Gruvbox ... :D",
+    "version": "0.0.1",
+    "publisher": "rphlmr",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Visual Gruvbox (Medium Dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Visual Gruvbox Medium Dark.tmTheme"
+            }
+        ]
+    }
+}

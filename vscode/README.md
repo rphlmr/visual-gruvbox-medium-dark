@@ -24,7 +24,7 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 *Check my [GitHub](https://github.com/rphlmr/) to find my IntelliJ port.* 
 
 ## Some screenshots
-### C#
+### CSHARP
 ![C#](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/csharp.png)
 
 ### JSON

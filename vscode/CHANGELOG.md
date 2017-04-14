@@ -3,7 +3,8 @@ All notable changes to the "visual-gruvbox-medium-dark" extension are documented
 
 
 ## [Unreleased]
+- Fix Readme :)
+## [0.0.3]
 - Fix Readme images links
-
 ## [0.0.1]
 - Initial release

@@ -24,7 +24,7 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 * Field, Variable, other text : "white beige"
 
 ## Some screenshots
-### C#
+### CSHARP
 ![C#](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/csharp.png)
 
 ### JSON

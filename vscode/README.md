@@ -25,25 +25,25 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 
 ## Some screenshots
 ### C#
-![C#](https://github.com/rphlmr/visual-gruvbox-medium-dark/tree/master/demo/img/csharp.png)
+![C#](img/csharp.png)
 
 ### JSON
-![JSON](https://github.com/rphlmr/visual-gruvbox-medium-dark/tree/master/demo/img/json.png)
+![JSON](img/json.png)
 
 ### XML
-![XML](https://github.com/rphlmr/visual-gruvbox-medium-dark/tree/master/demo/img/xml.png)
+![XML](img/xml.png)
 
 ### CSHTML
-![CSHTML](https://github.com/rphlmr/visual-gruvbox-medium-dark/tree/master/demo/img/cshtml.png)
+![CSHTML](img/cshtml.png)
 
 ### HTML
-![HTML](https://github.com/rphlmr/visual-gruvbox-medium-dark/tree/master/demo/img/html.png)
+![HTML](img/html.png)
 
 ### CSS
-![CSS](https://github.com/rphlmr/visual-gruvbox-medium-dark/tree/master/demo/img/CSS.png)
+![CSS](img/CSS.png)
 
 ### JAVASCRIPT
-![JAVASCRIPT](https://github.com/rphlmr/visual-gruvbox-medium-dark/tree/master/demo/img/js.png)
+![JAVASCRIPT](img/js.png)
 
 ### JAVA
-![JAVA](https://github.com/rphlmr/visual-gruvbox-medium-dark/tree/master/demo/img/java.png)
+![JAVA](img/java.png)

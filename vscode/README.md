@@ -25,25 +25,25 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 
 ## Some screenshots
 ### C#
-![C#](img/csharp.png)
+![C#](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/csharp.png)
 
 ### JSON
-![JSON](img/json.png)
+![JSON](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/json.png)
 
 ### XML
-![XML](img/xml.png)
+![XML](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/xml.png)
 
 ### CSHTML
-![CSHTML](img/cshtml.png)
+![CSHTML](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/cshtml.png)
 
 ### HTML
-![HTML](img/html.png)
+![HTML](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/html.png)
 
 ### CSS
-![CSS](img/CSS.png)
+![CSS](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/CSS.png)
 
 ### JAVASCRIPT
-![JAVASCRIPT](img/js.png)
+![JAVASCRIPT](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/js.png)
 
 ### JAVA
-![JAVA](img/java.png)
+![JAVA](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/java.png)

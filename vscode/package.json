@@ -2,7 +2,7 @@
     "name": "visual-gruvbox-medium-dark",
     "displayName": "Visual Gruvbox (Medium Dark)",
     "description": "Visual Studio dark theme meets Gruvbox ... :D",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "rphlmr",
     "engines": {
         "vscode": "^1.11.0"

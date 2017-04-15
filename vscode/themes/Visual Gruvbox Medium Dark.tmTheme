@@ -21,7 +21,7 @@
 		$dark-green:    #98971a;
 		$grey:          #a89984;
 		$dark-grey:     #7c6f64;
-		$text-color:    #d5c4a1;
+		$text-color:    #ebdbb2;
 	</string>
 	<key>name</key>
 	<string>Visual Gruvbox Medium Dark</string>
@@ -33,9 +33,9 @@
 				<key>background</key>
 				<string>#282828</string>
 				<key>caret</key>
-				<string>#d5c4a1</string>
+				<string>#ebdbb2</string>
 				<key>foreground</key>
-				<string>#d5c4a1</string>
+				<string>#ebdbb2</string>
 				<key>invisibles</key>
 				<string>#404F7D</string>
 				<key>lineHighlight</key>
@@ -65,7 +65,7 @@
 			<key>name</key>
 			<string>Constant, This</string>
 			<key>scope</key>
-			<string>constant.language, variable.language.this, variable.language.java, keyword.operator.new, keyword.operator.logical.cs</string>
+			<string>variable.language.this, variable.language.java, keyword.operator.new, keyword.operator, keyword.operator.logical, constant.language</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -84,7 +84,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#d5c4a1</string>
+				<string>#ebdbb2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -95,7 +95,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d5c4a1</string>
+				<string>#ebdbb2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -111,7 +111,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+			<string>Number, Constant, Tag Attribute, Embedded</string>
 			<key>scope</key>
 			<string>constant.numeric, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit, constant.other.color</string>
 			<key>settings</key>
@@ -139,7 +139,7 @@
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type, support.class, storage.type.generic.java, entity.other.inherited-class.java, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css
+			<string>entity.name.class, entity.name.type, support.class, storage.type.generic.java, entity.other.inherited-class.java, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, punctuation.definition.entity.css
 			</string>
 			<key>settings</key>
 			<dict>
@@ -172,7 +172,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#d5c4a1</string>
+				<string>#ebdbb2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -218,8 +218,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level,
-			meta.method-call.java</string>
+			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.method-call.java, entity.name.type.delegate</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -232,7 +231,7 @@
 			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
-			<string>keyword, storage, storage.type</string>
+			<string>keyword, storage</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -251,14 +250,14 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#83a598</string>
+				<string>#458588</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Class type</string>
 			<key>scope</key>
-			<string>storage.type.cs</string>
+			<string>storage.type.cs, storage.type</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -292,7 +291,7 @@
 				<key>background</key>
 				<string>#BBDAFE</string>
 				<key>foreground</key>
-				<string>#d5c4a1</string>
+				<string>#ebdbb2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -340,7 +339,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d5c4a1</string>
+				<string>#ebdbb2</string>
 				<key>background</key>
 				<string>#076678</string>
 			</dict>
@@ -446,7 +445,7 @@
 			<key>name</key>
 			<string>Attribute</string>
 			<key>scope</key>
-			<string>meta.selector.css, meta.selector</string>
+			<string>meta.selector.css, meta.selector, punctuation.definition.keyword.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -457,7 +456,7 @@
 			<key>name</key>
 			<string>Attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.html, entity.other.attribute-name.localname.xml, entity.other.attribute-name.xml, entity.other.attribute-name.namespace.xml, punctuation.definition.keyword.css</string>
+			<string>entity.other.attribute-name.html, entity.other.attribute-name.localname.xml, entity.other.attribute-name.xml, entity.other.attribute-name.namespace.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -479,7 +478,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.parenthesis, punctuation.terminator, keyword.operator, punctuation.squarebracket, punctuation.curlybrace, punctuation.separator, punctuation.accessor, punctuation.section.class, punctuation.section.block, punctuation.section.property-list, punctuation.definition, entity.other.attribute-name.pseudo-class, punctuation.section.function, punctuation.section.inner-class</string>
+			<string>punctuation.parenthesis, punctuation.terminator, punctuation.squarebracket, punctuation.curlybrace, punctuation.separator, punctuation.accessor, punctuation.section.class, punctuation.section.block, punctuation.section.property-list, punctuation.definition, punctuation.section.function, punctuation.section.inner-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -501,7 +500,7 @@
 			<key>name</key>
 			<string>HTML/XML code, CSS property name</string>
 			<key>scope</key>
-			<string>constant.character.entity.html, support.type.property-name.css, meta.attribute-selector.css, support.type.property-name.scss, constant.character.entity.xml, punctuation.definition.constant.xml, punctuation.definition.entity
+			<string>constant.character.entity.html, support.type.property-name.css, meta.attribute-selector.css, support.type.property-name.scss, constant.character.entity.xml, punctuation.definition.constant.xml, punctuation.definition.entity,entity.other.attribute-name.pseudo-class
 			</string>
 			<key>settings</key>
 			<dict>
@@ -517,7 +516,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fe8019</string>
+				<string>#83a598</string>
 			</dict>
 		</dict>
 		<dict>

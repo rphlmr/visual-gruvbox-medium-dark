@@ -24,6 +24,10 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 * Numeric : purple
 * Field, Variable, other text : "white beige"
 
+## Known issue
+- The variable (color beige) take the class color (green) when using an accessor (".") :(
+    Bug reported to Microsoft. 
+
 ## Some screenshots
 ### CSHARP
 ![C#](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/csharp.png)

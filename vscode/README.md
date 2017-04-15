@@ -22,6 +22,10 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 
 *Check my [GitHub](https://github.com/rphlmr/visual-gruvbox-medium-dark) to find my IntelliJ port (synchronous updates with the VSCode release.* 
 
+## Known issue
+- The variable (color beige) take the class color (green) when using an accessor (".") :(
+    Bug reported to Microsoft. 
+
 ## Some screenshots
 ### CSHARP
 ![C#](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/csharp.png)

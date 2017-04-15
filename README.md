@@ -22,7 +22,11 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 * Method : yellow
 * String : aqua
 * Numeric : purple
-* Field, Variable, other text : "white beige"
+* Field, Variable, other text : "beige"
+
+## Known issue
+- The variable (color beige) take the class color (green) when using an accessor (".") :(
+    Bug reported to Microsoft. 
 
 ## Some screenshots
 ### CSHARP

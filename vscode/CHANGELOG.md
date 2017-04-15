@@ -2,6 +2,9 @@
 All notable changes to the "visual-gruvbox-medium-dark" extension are documented in this file.
 
 ## [Unreleased]
+- Update known issues
+
+## [1.0.3]
 - [ALL] 
     - Fix punctuation color issue
     - Change beige color tone

@@ -383,9 +383,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markup Title</string>
+			<key>scope</key>
+			<string>punctuation.definition.heading.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b8bb26</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markup bold</string>
 			<key>scope</key>
-			<string>markup.bold</string>
+			<string>markup.bold, punctuation.definition.bold.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -398,7 +409,7 @@
 			<key>name</key>
 			<string>Markup italic</string>
 			<key>scope</key>
-			<string>markup.italic</string>
+			<string>markup.italic, punctuation.definition.italic.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -490,7 +501,7 @@
 			<key>name</key>
 			<string>HTML/XML code, CSS property name</string>
 			<key>scope</key>
-			<string>constant.character.entity.html, support.type.property-name.css, meta.attribute-selector.css
+			<string>constant.character.entity.html, support.type.property-name.css, meta.attribute-selector.css, support.type.property-name.scss
 </string>
 			<key>settings</key>
 			<dict>

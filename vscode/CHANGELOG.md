@@ -2,6 +2,9 @@
 All notable changes to the "visual-gruvbox-medium-dark" extension are documented in this file.
 
 ## [Unreleased]
+- [MARKDOWN] Fix punctuation color and style from previously rework
+
+## [1.0.1]
 - [ALL] Fix punctuation separator color missing
 
 ## [0.1.0]

@@ -8,7 +8,8 @@
    <indexitem text="migrate" target="refactoring.migrate"/>
    <indexitem text="usage search" target="find.findUsages"/>
    <someTextWithEntityRefs>&amp; &#x00B7;</someTextWithEntityRefs>
-   <withCData><![CDATA[
+   <withCData>
+        <![CDATA[
           <object class="MyClass" key="constant">
           </object>
         ]]>

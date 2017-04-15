@@ -15,13 +15,13 @@
 		$dark-purple:   #b16286;
 		$blue:          #83a598;
 		$dark-blue:     #458588;
-		$cyan:          #8ec07c;
-		$dark-cyan:     #689d6a;
+		$aqua:          #8ec07c;
+		$dark-aqua:     #689d6a;
 		$green:         #b8bb26;
 		$dark-green:    #98971a;
 		$grey:          #a89984;
 		$dark-grey:     #7c6f64;
-		$text-color:    #ebdbb2;
+		$text-color:    #d5c4a1;
 	</string>
 	<key>name</key>
 	<string>Visual Gruvbox Medium Dark</string>
@@ -33,9 +33,9 @@
 				<key>background</key>
 				<string>#282828</string>
 				<key>caret</key>
-				<string>#ebdbb2</string>
+				<string>#d5c4a1</string>
 				<key>foreground</key>
-				<string>#ebdbb2</string>
+				<string>#d5c4a1</string>
 				<key>invisibles</key>
 				<string>#404F7D</string>
 				<key>lineHighlight</key>
@@ -52,7 +52,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
 			<key>fontStyle</key>
@@ -65,7 +65,7 @@
 			<key>name</key>
 			<string>Constant, This</string>
 			<key>scope</key>
-			<string>constant.language, variable.language.this, variable.language.java, keyword.operator.new</string>
+			<string>constant.language, variable.language.this, variable.language.java, keyword.operator.new, keyword.operator.logical.cs</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -84,7 +84,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ebdbb2</string>
+				<string>#d5c4a1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -95,7 +95,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ebdbb2</string>
+				<string>#d5c4a1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -140,7 +140,7 @@
 			<string>Class, Support</string>
 			<key>scope</key>
 			<string>entity.name.class, entity.name.type, support.class, storage.type.generic.java, entity.other.inherited-class.java, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css
-</string>
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -172,7 +172,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ebdbb2</string>
+				<string>#d5c4a1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -192,7 +192,7 @@
 			<key>name</key>
 			<string>String, Symbols, Inherited Class</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class</string>
+			<string>string, constant.other.symbol, entity.other.inherited-class, punctuation.definition.string, meta.tag.sgml.doctype.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -292,7 +292,7 @@
 				<key>background</key>
 				<string>#BBDAFE</string>
 				<key>foreground</key>
-				<string>#ebdbb2</string>
+				<string>#d5c4a1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -340,7 +340,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ebdbb2</string>
+				<string>#d5c4a1</string>
 				<key>background</key>
 				<string>#076678</string>
 			</dict>
@@ -435,7 +435,7 @@
 			<key>name</key>
 			<string>Tag Name</string>
 			<key>scope</key>
-			<string>declaration.tag, meta.tag.sgml.doctype.html</string>
+			<string>declaration.tag, meta.tag.sgml.doctype.html, variable.language.documentroot.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -457,7 +457,7 @@
 			<key>name</key>
 			<string>Attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.html, entity.other.attribute-name.localname.xml, entity.other.attribute-name.xml, entity.other.attribute-name.namespace.xml</string>
+			<string>entity.other.attribute-name.html, entity.other.attribute-name.localname.xml, entity.other.attribute-name.xml, entity.other.attribute-name.namespace.xml, punctuation.definition.keyword.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -468,7 +468,7 @@
 			<key>name</key>
 			<string>Meta tag</string>
 			<key>scope</key>
-			<string>variable.language.documentroot.xml, meta.documentation.tag.param.javadoc, keyword.other.documentation.param.javadoc, keyword.other.documentation.see.javadoc</string>
+			<string>meta.documentation.tag.param.javadoc, keyword.other.documentation.param.javadoc, keyword.other.documentation.see.javadoc</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -501,8 +501,8 @@
 			<key>name</key>
 			<string>HTML/XML code, CSS property name</string>
 			<key>scope</key>
-			<string>constant.character.entity.html, support.type.property-name.css, meta.attribute-selector.css, support.type.property-name.scss
-</string>
+			<string>constant.character.entity.html, support.type.property-name.css, meta.attribute-selector.css, support.type.property-name.scss, constant.character.entity.xml, punctuation.definition.constant.xml, punctuation.definition.entity
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -513,7 +513,7 @@
 			<key>name</key>
 			<string>Escape</string>
 			<key>scope</key>
-			<string>constant.character.escape, constant.character.entity.xml</string>
+			<string>constant.character.escape</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -529,6 +529,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#a89984</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CDATA</string>
+			<key>scope</key>
+			<string>string.unquoted.cdata.xml, punctuation.definition.string.begin.xml, punctuation.definition.string.end.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#8ec07c</string>
 			</dict>
 		</dict>
 

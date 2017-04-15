@@ -1,8 +1,10 @@
 # Change Log
 All notable changes to the "visual-gruvbox-medium-dark" extension are documented in this file.
 
-
 ## [Unreleased]
+- [ALL] Fix punctuation separator color missing
+
+## [0.1.0]
 - [ALL] Change language punctuation color from beige to grey
 - [ALL] Change escape characters color from purple to grey
 - [CSHARP / JAVA] Change XML documentation / JavaDoc tags color form grey to blue (uniformisation with XML and HTML)

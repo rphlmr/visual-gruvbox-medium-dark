@@ -468,7 +468,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.parenthesis, punctuation.terminator, keyword.operator, punctuation.squarebracket, punctuation.curlybrace, punctuation.separator.colon, punctuation.separator.hash, punctuation.accessor, punctuation.section.class, punctuation.section.block, punctuation.section.property-list, punctuation.definition.dictionary, punctuation.separator.dictionary, punctuation.separator.list, entity.other.attribute-name.pseudo-class, punctuation.separator.key-value, punctuation.section.function, punctuation.definition.typeparameters, punctuation.definition.tag, punctuation.separator.comma, punctuation.section.inner-class</string>
+			<string>punctuation.parenthesis, punctuation.terminator, keyword.operator, punctuation.squarebracket, punctuation.curlybrace, punctuation.separator, punctuation.accessor, punctuation.section.class, punctuation.section.block, punctuation.section.property-list, punctuation.definition, entity.other.attribute-name.pseudo-class, punctuation.section.function, punctuation.section.inner-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

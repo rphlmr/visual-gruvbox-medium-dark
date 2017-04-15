@@ -3,6 +3,19 @@ All notable changes to the "visual-gruvbox-medium-dark" extension are documented
 
 
 ## [Unreleased]
+- [ALL] Change language punctuation color from beige to grey
+- [ALL] Change escape characters color from purple to grey
+- [CSHARP / JAVA] Change XML documentation / JavaDoc tags color form grey to blue (uniformisation with XML and HTML)
+- [CSHARP] Change preprocessor message color from aqua to grey
+- [CSHTML / RAZOR] Change Razor keyword from purple to yellow (like method/function color)
+- [HTML] Change attributes name color from green to blue
+- [CSS] 
+    - Change properties name color from green to blue
+    - Change ids color from blue to green
+- [JSON] Change properties name color from blue to beige
+- [JS] Fix color issue with the "new" keyword (was beige and now blue)
+
+## [0.0.4]
 - Fix Readme :)
 ## [0.0.3]
 - Fix Readme images links

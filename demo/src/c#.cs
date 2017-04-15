@@ -1,4 +1,5 @@
 #region Studio Style
+using System;
 class Program : IThemeable
 {
     static int _I = 1;
@@ -10,7 +11,7 @@ class Program : IThemeable
     /// </summary>
     static void Main(string[] args)
     {
-        string normalStr = "The\" \"time now is approximately " + DateTime.Now;
+        string normalStr = "The\"time\" now is approximately " + DateTime.Now;
         Uri Illegal1Uri = new Uri("http://packmyboxwith/jugs.html?q=five-dozen&t=liquor");
         Regex OperatorRegex = new Regex(@"\S#$", RegexOptions.IgnorePatternWhitespace);
 

@@ -63,9 +63,22 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Constant, This</string>
+			<key>scope</key>
+			<string>constant.language, variable.language.this, variable.language.java, keyword.operator.new</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#83a598</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Foreground, Operator</string>
 			<key>scope</key>
-			<string>keyword.operator.class, keyword.operator, constant.other, source.php.embedded.line</string>
+			<string>keyword.operator.class, constant.other, source.php.embedded.line</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -100,7 +113,7 @@
 			<key>name</key>
 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit, constant.other.color, keyword.control.cshtml</string>
+			<string>constant.numeric, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit, constant.other.color</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -111,22 +124,23 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Constant, This</string>
+			<string>Keyword Razor</string>
 			<key>scope</key>
-			<string>constant.language, variable.language.this,variable.language.java</string>
+			<string>keyword.control.cshtml</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#83a598</string>
+				<string>#fabd2f</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type, support.class, storage.type.generic.java, entity.other.inherited-class.java</string>
+			<string>entity.name.class, entity.name.type, support.class, storage.type.generic.java, entity.other.inherited-class.java, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css
+</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -139,13 +153,26 @@
 			<key>name</key>
 			<string>Support</string>
 			<key>scope</key>
-			<string> support.type, support.type.property-name.json</string>
+			<string> support.type</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#83a598</string>
+				<string>#b8bb26</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON property</string>
+			<key>scope</key>
+			<string>support.type.property-name.json</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ebdbb2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -189,17 +216,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
-			<key>scope</key>
-			<string>keyword.operator</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ebdbb2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
 			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level,
@@ -216,7 +232,20 @@
 			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
-			<string>keyword, storage, storage.type, entity.name.tag.css</string>
+			<string>keyword, storage, storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#83a598</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML / XML tag</string>
+			<key>scope</key>
+			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -395,7 +424,7 @@
 			<key>name</key>
 			<string>Tag Name</string>
 			<key>scope</key>
-			<string>entity.name.tag, declaration.tag, meta.tag.sgml.doctype.html</string>
+			<string>declaration.tag, meta.tag.sgml.doctype.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -406,18 +435,29 @@
 			<key>name</key>
 			<string>Attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name, meta.selector.css, meta.selector, entity.other.attribute-name.class.css, entity.other.attribute-name.html</string>
+			<string>meta.selector.css, meta.selector</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b8bb26</string>
+				<string>#83a598</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.html, entity.other.attribute-name.localname.xml, entity.other.attribute-name.xml, entity.other.attribute-name.namespace.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#83a598</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Meta tag</string>
 			<key>scope</key>
-			<string>meta.tag, variable.language.documentroot.xml, meta.documentation.tag.param.javadoc, keyword.other.documentation.param.javadoc, keyword.other.documentation.see.javadoc, entity.name.tag.cs, entity.name.tag.localname.cs</string>
+			<string>variable.language.documentroot.xml, meta.documentation.tag.param.javadoc, keyword.other.documentation.param.javadoc, keyword.other.documentation.see.javadoc</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -426,9 +466,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML punctuation</string>
+			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag</string>
+			<string>punctuation.parenthesis, punctuation.terminator, keyword.operator, punctuation.squarebracket, punctuation.curlybrace, punctuation.separator.colon, punctuation.separator.hash, punctuation.accessor, punctuation.section.class, punctuation.section.block, punctuation.section.property-list, punctuation.definition.dictionary, punctuation.separator.dictionary, punctuation.separator.list, entity.other.attribute-name.pseudo-class, punctuation.separator.key-value, punctuation.section.function, punctuation.definition.typeparameters, punctuation.definition.tag, punctuation.separator.comma, punctuation.section.inner-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -437,25 +477,47 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML / XML Attribute Egal</string>
+			<string>Meta tag</string>
 			<key>scope</key>
-			<string>meta.tag.other.html, meta.tag.xml, meta.tag.inline.any.html</string>
+			<string>meta.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ebdbb2</string>
+				<string>#a89984</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>HTML/XML code</string>
+			<string>HTML/XML code, CSS property name</string>
 			<key>scope</key>
-			<string>constant.character.entity.xml, constant.character.entity.html</string>
+			<string>constant.character.entity.html, support.type.property-name.css, meta.attribute-selector.css
+</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#83a598</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Escape</string>
+			<key>scope</key>
+			<string>constant.character.escape, constant.character.entity.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a89984</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Preprocessor message</string>
+			<key>scope</key>
+			<string>string.unquoted.preprocessor.message</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a89984</string>
 			</dict>
 		</dict>
 

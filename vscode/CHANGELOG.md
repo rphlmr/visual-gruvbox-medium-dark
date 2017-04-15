@@ -2,6 +2,9 @@
 All notable changes to the "visual-gruvbox-medium-dark" extension are documented in this file.
 
 ## [Unreleased]
+- [ALL] Change escape color from grey to orange
+
+## [1.0.4]
 - Update known issues
 
 ## [1.0.3]

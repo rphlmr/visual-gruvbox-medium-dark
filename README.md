@@ -14,7 +14,7 @@ I just made little changes on the VS theme.
 Also, this theme is compatible with the new [Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)  (*I'll try to port it to Visual Studio on Windows* ).
 You just have to import "`Visual Gruvbox Medium Dark.tmTheme`" ([Look at this documentation to "export" the theme](https://code.visualstudio.com/docs/extensions/yocode#_your-extensions-folder)). I did my best to make them look alike ;)
 
-This theme is primarily for C#, HTML, CSS, XML, JSON. It works with JavaScript but maybe you'll not find that "well thinking".
+This theme is primarily for C#, HTML, CSS, XML, JSON.
 
 I try to follow the VS dark theme logic with the Gruvbox colors : 
 * Keyword, Primitive : blue
@@ -22,7 +22,7 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 * Method : yellow
 * String : aqua
 * Numeric : purple
-* Field, Variable, other text : "beige"
+* Field, Variable, other text : beige
 
 ## Known issue
 - The variable (color beige) take the class color (green) when using an accessor (".") :(

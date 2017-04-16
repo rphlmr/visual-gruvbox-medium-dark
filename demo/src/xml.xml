@@ -7,14 +7,17 @@
    <indexitem text="move" target="refactoring.move"/>
    <indexitem text="migrate" target="refactoring.migrate"/>
    <indexitem text="usage search" target="find.findUsages"/>
-   <someTextWithEntityRefs>&amp; &#x00B7;</someTextWithEntityRefs>
+   <someTextWithEntityRefs>
+      This is some text ... &amp; 
+      &#x00B7;
+   </someTextWithEntityRefs>
    <withCData>
         <![CDATA[
           <object class="MyClass" key="constant">
           </object>
         ]]>
    </withCData>
-   <text>
+   <text class="sample">
         Sample...
    </text>
    <indexitem text="project" target="project.management"/>

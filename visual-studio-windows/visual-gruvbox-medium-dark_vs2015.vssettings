@@ -13,7 +13,7 @@
 							<Item Name="Plain Text" Foreground="0x00A1C4D5" Background="0x00282828" BoldFont="No"/>
 							<Item Name="Comment" Foreground="0x00748392" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Selected Text" Foreground="0x02000000" Background="0x00786607" BoldFont="No"/>
-							<Item Name="brace matching" Foreground="0x02000000" Background="0x00CCE0DB" BoldFont="No"/>
+							<Item Name="brace matching" Foreground="0x02000000" Background="0x00786607" BoldFont="No"/>
 							<Item Name="Identifier" Foreground="0x00A1C4D5" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Number" Foreground="0x009B86D3" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Operator" Foreground="0x0098A583" Background="0x02000000" BoldFont="No"/>

@@ -2,6 +2,9 @@
 All notable changes to the "visual-gruvbox-medium-dark" extension are documented in this file.
 
 ## [Unreleased]
+- Update README
+
+## [1.0.0]
 **Lot of changes happened during the "beta" due to some tests on "bad quality" screen.**
 - [ALL] 
     - Operators keywords are now blue, they have to be contrasted

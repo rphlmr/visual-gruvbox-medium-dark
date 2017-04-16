@@ -1,14 +1,30 @@
 # README
 ## Enjoy Visual Gruvbox (Medium Dark) !
-
 I made this theme because I didn't find one who satisfy me.
 
 It's inspired by the Visual Studio dark theme and [Gruvbox](https://github.com/morhetz/gruvbox).
 
 I just made little changes on the VS theme.
 
-Also, this theme is compatible with the new [Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)  (*I'll try to port it to Visual Studio on Windows* ).
-You just have to import "`Visual Gruvbox Medium Dark.tmTheme`" ([Look at this documentation to "export" the theme](https://code.visualstudio.com/docs/extensions/yocode#_your-extensions-folder)). I did my best to make them look alike ;)
+### Supported IDE
+I did my best to make them look alike ;)
+
+### Visual Studio Code (main)
+You can directly download the theme [here](https://marketplace.visualstudio.com/items?itemName=rphlmr.visual-gruvbox-medium-dark)
+
+### Visual Studio for Mac
+This theme is compatible with the new [Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/).
+
+- You just have to import "`Visual Gruvbox Medium Dark.tmTheme`" ([Look at this documentation to "export" the theme from this extension](https://code.visualstudio.com/docs/extensions/yocode#_your-extensions-folder))
+.
+- Or you can directly download the theme [here](https://github.com/rphlmr/visual-gruvbox-medium-dark) 
+
+### Visual Studio Windows
+You can directly download the theme [here](https://studiostyl.es/schemes/visual-gruvbox-medium-dark)
+
+### Intellij
+You can directly download the theme [here](https://github.com/rphlmr/visual-gruvbox-medium-dark/tree/master/intellij) or [here](http://color-themes.com/?view=theme&id=58f37735cc35aa1b00dba6a4)
+
 
 This theme is primarily for C#, HTML, CSS, XML, JSON.
 
@@ -20,13 +36,11 @@ I try to follow the VS dark theme logic with the Gruvbox colors :
 * Numeric : purple
 * Field, Variable, other text : beige
 
-*Check my [GitHub](https://github.com/rphlmr/visual-gruvbox-medium-dark) to find my IntelliJ port (synchronous updates with the VSCode release.* 
-
 ## Known issue
 - The variable (color beige) take the class color (green) when using an accessor (".") :(
     Bug reported to Microsoft. 
 
-## Some screenshots
+## Some screenshots (Identical to IntelliJ ;) )
 ### CSHARP
 ![C#](https://raw.githubusercontent.com/rphlmr/visual-gruvbox-medium-dark/master/demo/img/csharp.png)
 

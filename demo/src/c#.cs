@@ -23,7 +23,6 @@ class Program : IThemeable
             {
                 // no idea what this does!?
                 Console.WriteLine(Illegal1Uri + normalStr);
-
             } 
             else if (true)
             {

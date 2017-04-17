@@ -2,6 +2,9 @@
 All notable changes to the "visual-gruvbox-medium-dark" extension are documented in this file.
 
 ## [Unreleased]
+- [EXTENSION] Fix version number mistake :(
+
+## [1.1.0]
 - [CSHARP] Fix delegate color to match with type color (green)
 
 ## [1.0.1]

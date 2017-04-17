@@ -139,7 +139,7 @@
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type, support.class, storage.type.generic.java, entity.other.inherited-class.java, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, punctuation.definition.entity.css, punctuation.definition.typeparameters
+			<string>entity.name.class, entity.name.type, support.class, storage.type.generic.java, entity.other.inherited-class.java, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, punctuation.definition.entity.css, punctuation.definition.typeparameters, entity.name.type.delegate
 			</string>
 			<key>settings</key>
 			<dict>
@@ -218,7 +218,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.method-call.java, entity.name.type.delegate, entity.other.attribute-name.pseudo-class</string>
+			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.method-call.java, entity.other.attribute-name.pseudo-class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

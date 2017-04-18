@@ -4,7 +4,7 @@
     <property name="created">2017-04-14T19:07:00</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.1.0.0</property>
-    <property name="modified">2017-04-16T11:08:16</property>
+    <property name="modified">2017-04-18T13:26:25</property>
     <property name="originalScheme">Gruvbox copy1</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="15" />
@@ -690,6 +690,13 @@
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="d5c4a1" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE">
       <value>
@@ -871,6 +878,41 @@
         <option name="FOREGROUND" value="83a598" />
       </value>
     </option>
+    <option name="REGEXP.BRACES">
+      <value>
+        <option name="FOREGROUND" value="8ec07c" />
+      </value>
+    </option>
+    <option name="REGEXP.BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="8ec07c" />
+      </value>
+    </option>
+    <option name="REGEXP.CHARACTER">
+      <value>
+        <option name="FOREGROUND" value="8ec07c" />
+      </value>
+    </option>
+    <option name="REGEXP.CHAR_CLASS">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="REGEXP.NAME">
+      <value>
+        <option name="FOREGROUND" value="8ec07c" />
+      </value>
+    </option>
+    <option name="REGEXP.OPTIONS">
+      <value>
+        <option name="FOREGROUND" value="8ec07c" />
+      </value>
+    </option>
+    <option name="REGEXP.PARENTHS">
+      <value>
+        <option name="FOREGROUND" value="8ec07c" />
+      </value>
+    </option>
     <option name="RHTML_OMIT_NEW_LINE_ID">
       <value>
         <option name="FOREGROUND" value="83a598" />
@@ -1019,8 +1061,17 @@
         <option name="EFFECT_COLOR" value="ebdbb2" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
+    <option name="STATIC_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="d5c4a1" />
+      </value>
+    </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="d5c4a1" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fabd2f" />

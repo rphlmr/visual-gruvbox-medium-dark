@@ -4,7 +4,7 @@
     <property name="created">2017-04-14T19:07:00</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.1.0.0</property>
-    <property name="modified">2017-04-18T13:26:25</property>
+    <property name="modified">2017-04-18T16:55:05</property>
     <property name="originalScheme">Gruvbox copy1</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="15" />
@@ -1177,7 +1177,6 @@
       <value>
         <option name="FOREGROUND" value="d5c4a1" />
         <option name="BACKGROUND" value="282828" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>

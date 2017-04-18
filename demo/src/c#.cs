@@ -3,6 +3,7 @@ using System;
 class Program : IThemeable
 {
     static int _i = 1;
+    public Program MyProperty { get; set; }
     delegate void DoSomething();
 
     /// <summary>
@@ -21,6 +22,7 @@ class Program : IThemeable
             _i += (O % 3) * ((O / 1) ^ 2) - 5;
             if (!operatorRegex.IsMatch(Illegal1Uri.ToString()))
             {
+                MyProperty.Errt
                 // no idea what this does!?
                 Console.WriteLine(Illegal1Uri + normalStr);
             } 

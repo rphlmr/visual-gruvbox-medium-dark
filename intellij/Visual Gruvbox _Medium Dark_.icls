@@ -4,7 +4,7 @@
     <property name="created">2017-04-14T19:07:00</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.1.0.0</property>
-    <property name="modified">2017-10-01T17:32:03</property>
+    <property name="modified">2017-10-01T19:33:50</property>
     <property name="originalScheme">Gruvbox copy1</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="14" />
@@ -61,9 +61,14 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="d5c4a1" />
+      </value>
+    </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fe8019" />
+        <option name="FOREGROUND" value="d65d0e" />
       </value>
     </option>
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
@@ -1077,7 +1082,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="ebdbb2" />
+        <option name="FOREGROUND" value="d5c4a1" />
         <option name="BACKGROUND" value="282828" />
       </value>
     </option>

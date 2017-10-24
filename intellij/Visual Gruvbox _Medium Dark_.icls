@@ -4,7 +4,7 @@
     <property name="created">2017-10-08T18:47:13</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2017-10-08T19:09:50</property>
+    <property name="modified">2017-10-22T20:51:17</property>
     <property name="originalScheme">Visual Gruvbox (Medium Dark) copy</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="13" />
@@ -68,7 +68,7 @@
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d5c4a1" />
+        <option name="FOREGROUND" value="d65d0e" />
       </value>
     </option>
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">

@@ -1,11 +1,11 @@
 <scheme name="Visual Gruvbox (Medium Dark)" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2017-10-08T18:47:13</property>
+    <property name="created">2018-04-15T12:18:49</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2017-10-22T20:51:17</property>
-    <property name="originalScheme">Visual Gruvbox (Medium Dark) copy</property>
+    <property name="ideVersion">2018.1.0.0</property>
+    <property name="modified">2018-04-15T12:19:01</property>
+    <property name="originalScheme">Visual Gruvbox (Medium Dark)</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="13" />
   <option name="EDITOR_FONT_NAME" value="Hack" />
@@ -706,7 +706,61 @@
     </option>
     <option name="KOTLIN_ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="83786e" />
+        <option name="FOREGROUND" value="fe8019" />
+      </value>
+    </option>
+    <option name="KOTLIN_BACKING_FIELD_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="839496" />
+      </value>
+    </option>
+    <option name="KOTLIN_COLON">
+      <value>
+        <option name="FOREGROUND" value="839496" />
+      </value>
+    </option>
+    <option name="KOTLIN_DOUBLE_COLON">
+      <value>
+        <option name="FOREGROUND" value="839496" />
+      </value>
+    </option>
+    <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="KOTLIN_EXCLEXCL">
+      <value>
+        <option name="FOREGROUND" value="839496" />
+      </value>
+    </option>
+    <option name="KOTLIN_EXTENSION_PROPERTY">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FOREGROUND" value="839496" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_INSTANCE_PROPERTY">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
     <option name="KOTLIN_LABEL">
@@ -716,12 +770,51 @@
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="83786e" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="83786e" />
+      </value>
+    </option>
+    <option name="KOTLIN_PACKAGE_PROPERTY">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="KOTLIN_QUEST">
+      <value>
+        <option name="FOREGROUND" value="839496" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value>
+        <option name="FOREGROUND" value="3c3f41" />
+        <option name="BACKGROUND" value="fabd2f" />
       </value>
     </option>
     <option name="KOTLIN_SMART_CAST_VALUE">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
       <value>
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="3c3f41" />
+        <option name="BACKGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="KOTLIN_VARIABLE_AS_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+        <option name="BACKGROUND" value="282828" />
+      </value>
+    </option>
+    <option name="KOTLIN_VARIABLE_AS_FUNCTION_LIKE">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+        <option name="BACKGROUND" value="282828" />
       </value>
     </option>
     <option name="LOG_ERROR_OUTPUT">
@@ -742,7 +835,7 @@
     <option name="List/map to object conversion" baseAttributes="JAVA_NUMBER" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff8647" />
+        <option name="EFFECT_COLOR" value="fe8019" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
